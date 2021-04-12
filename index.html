@@ -7,8 +7,12 @@
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    <div class="player-score">0</div>
-    <div class="computer-score">0</div>
+    <div id="player-score" 
+        class="player-score">Player Score: 0</div>
+
+    <div id="computer-score" 
+        class="computer-score">Computer Score: 0</div>
+    <h1 id="game-title"> Rock Paper Scissors</h1>    
 
     <div class="game-board">
         <div class="rock"><img src="images/Rock.png" 
@@ -21,6 +25,8 @@
             alt="scissors"
              width="100px" height="100px"></div>
     </div>
+
+    <div class="result-message">Sorry You Lose</div>
     
     <script src="app.js"></script>
 </body>

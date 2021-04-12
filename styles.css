@@ -6,3 +6,53 @@
 body {
     background: rgb(63, 63, 63);
 }
+
+.player-score {
+    color: White;
+    margin-left: 0;
+    font-size: 35px;
+}
+
+.computer-score {
+    color: white;
+    margin-left: 0;
+    font-size: 35px;
+}
+
+#game-title {
+    color: white;
+    margin-top: 5%;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+.game-board {
+    position: absolute;
+    display: inline-flex;
+    margin-top: 10%;
+    margin-left: 35%;
+}
+
+.rock {
+    margin: 30px;
+    cursor: pointer;
+}
+
+.paper {
+    margin: 30px;
+    cursor: pointer;
+}
+
+.scissors {
+    margin: 30px;
+    cursor: pointer;
+}
+
+.result-message {
+    color: white;
+    text-align: center;
+    margin-top: 28%;
+    font-size: 30px;
+
+}
