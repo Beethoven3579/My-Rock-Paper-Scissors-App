@@ -1,0 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+body {
+    background: rgb(63, 63, 63);
+}
