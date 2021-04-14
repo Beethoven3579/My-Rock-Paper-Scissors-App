@@ -8,7 +8,7 @@
 
 ## Project Summary
 
-This was a less difficult project for me at this stage. However, I still learned plenty form this project. 
+This was a less difficult challenge for me at this stage. However, I still learned plenty from this project. 
 The major takeaways were: 1) knowing the proper point in the code to call a function. 2) Creating a random variable. 
 3) Changing what is sent to the DOM depending on the random variable. 
 
