@@ -14,4 +14,4 @@ The major takeaways were: 1) knowing the proper point in the code to call a func
 
 ## About Me
 
-Nick Paolino -- Full time programming student [LinkedIn](https://www.linkedin.com/in/nick-paolino-00469291/)
+Nick Paolino -- Full time programming student -- [LinkedIn](https://www.linkedin.com/in/nick-paolino-00469291/)
