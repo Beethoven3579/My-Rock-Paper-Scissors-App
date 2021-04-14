@@ -7,18 +7,6 @@ body {
     background: rgb(63, 63, 63);
 }
 
-.player-score {
-    color: White;
-    margin-left: 0;
-    font-size: 35px;
-}
-
-.computer-score {
-    color: white;
-    margin-left: 0;
-    font-size: 35px;
-}
-
 #game-title {
     color: white;
     margin-top: 5%;
@@ -31,7 +19,7 @@ body {
     position: absolute;
     display: inline-flex;
     margin-top: 10%;
-    margin-left: 35%;
+    margin-left: 33.5%;
 }
 
 .rock {

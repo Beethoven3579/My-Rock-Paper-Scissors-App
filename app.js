@@ -11,26 +11,26 @@ function main() {
     document.getElementById('rock')
     .addEventListener('click', () => {   
         playerChoice = 'Rock';
-        message.textContent = `You chose ${playerChoice} :
-        Computer chose ${computerChoice}... ${result}`;
         getComputerChoice();
         gameResult();
+        message.textContent = `You chose ${playerChoice} :
+        Computer chose ${computerChoice}... ${result}`;
     })
     document.getElementById('paper')
     .addEventListener('click', () => {
         playerChoice = 'Paper';
-        message.textContent = `You chose ${playerChoice} : 
-        Computer chose ${computerChoice}... ${result}`;
         getComputerChoice();
         gameResult()
+        message.textContent = `You chose ${playerChoice} : 
+        Computer chose ${computerChoice}... ${result}`; 
     })
     document.getElementById('scissors')
     .addEventListener('click', () => {
         playerChoice = 'Scissors';
-        message.textContent = `You chose ${playerChoice} : 
-        Computer chose ${computerChoice}... ${result}`;
         getComputerChoice();
         gameResult();
+        message.textContent = `You chose ${playerChoice} : 
+        Computer chose ${computerChoice}... ${result}`;
     })
 
 }
@@ -42,37 +42,30 @@ function getComputerChoice() {
         i = randomChoice;
         computerChoice = choicesArray[randomChoice];
         break;
-      }
-    
     }
+    
+}
     
 function gameResult() {
 
-    switch (playerChoice === "Rock") {
-        case computerChoice === "Paper":
-        result = "Sorry, you lost :(";   
-            break;
-        case computerChoice === "Scissors":
-        result = "Nice! You Win!";
-            break;
+    if (playerChoice === "Rock" && computerChoice === "Paper" || 
+    playerChoice === "Paper" && computerChoice === "Scissors" ||
+    playerChoice === "Scissors" && computerChoice === "Rock") 
+    {    result = "Sorry, you lost :-(";   
+            return;
         }
-    switch (playerChoice === "Paper") {
-        case computerChoice === "Scissors":
-        result = "Sorry, you lost :(";    
-            break;
-        case computerChoice === "Rock":
-        result = "Nice! You Win!";
-            break;
-        }
-    switch (playerChoice === "Scissors") {
-        case computerChoice === "Rock":
-        result = "Sorry, you lost :(";    
-            break;
-        case computerChoice === "Paper":
-        result = "Nice! You Win!";
-            break;
-        }
-    
-     }
-
+    if (playerChoice === "Rock" && computerChoice === "Scissors" || 
+    playerChoice === "Paper" && computerChoice === "Rock" ||
+    playerChoice === "Scissors" && computerChoice === "Paper") 
+    {    result = "Nice! You Win :-)";   
+            return;
+        }    
+    if (playerChoice === "Rock" && computerChoice === "Rock" || 
+    playerChoice === "Paper" && computerChoice === "Paper" ||
+    playerChoice === "Scissors" && computerChoice === "Scissors") 
+    {    result = "Draw";   
+            return;
+        }  
+}  
+   
 main()
