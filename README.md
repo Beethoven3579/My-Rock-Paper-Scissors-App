@@ -6,7 +6,7 @@
 
 ![](RockPaperScissorsScreenShot.png)
 
-## This was a less difficult project for me at this stage. However, I still learned plaenty form this project. 
+### This was a less difficult project for me at this stage. However, I still learned plenty form this project. 
 The major takeaways were: 1) knowing the proper point in the code to call a function. 2) Creating a random variable. 
 3) Changing what is sent to the DOM depending on the random variable. 
 
