@@ -21,7 +21,10 @@ body {
     margin-top: 10%;
     margin-left: 33.5%;
 }
-
+img {
+    width: 100px;
+    height: 100px;
+}
 .rock {
     margin: 30px;
     cursor: pointer;
@@ -30,6 +33,7 @@ body {
 .paper {
     margin: 30px;
     cursor: pointer;
+
 }
 
 .scissors {
